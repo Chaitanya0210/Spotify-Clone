@@ -49,7 +49,7 @@ nav ul li{
     width: 70%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url("dhuran.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
 }
 
@@ -75,9 +75,7 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
-
-
-
+    cursor: pointer;
 }
 
 
@@ -110,4 +108,18 @@ nav ul li{
 
 .songItemContainer{
     margin-top: 40px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-family: 'Varela Round', sans-serif;    
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
 }
